@@ -54,7 +54,7 @@ class OrientadorCarreira:
         self.banco_carreiras = self._inicializar_banco_carreiras()
 
     def _inicializar_banco_carreiras(self):
-        """Método privado para popular nosso sistema com carreiras futuras."""
+        """Metodo privado para popular nosso sistema com carreiras futuras."""
         return {
             "cientista_dados": Carreira(
                 "Cientista de Dados",
